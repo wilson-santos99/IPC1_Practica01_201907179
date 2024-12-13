@@ -18,8 +18,8 @@ import java.io.Writer;
 
 class Practica1 {
 
-    static String user = "ss";
-    static String password = "dd";
+    static String user = "sensei_201907179";
+    static String password = "ipc1_201907179";
     static String inUser, inPass;
     static boolean logged = false;
     static int menuOption = 0;
@@ -407,8 +407,10 @@ class Practica1 {
             writer.write("<style>");
             writer.write("body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f5f5f5; }");
             writer.write("h1 { background-color: #6200ea; color: white; padding: 16px; margin: 0; }");
-            writer.write(".container { padding: 20px; max-width: 600px; margin: auto; background-color: white; border: 1px solid #ddd; }");
-            writer.write("table { width: 100%; border-collapse: collapse; margin-top: 20px; background-color: white; }");
+            writer.write(
+                    ".container { padding: 20px; max-width: 600px; margin: auto; background-color: white; border: 1px solid #ddd; }");
+            writer.write(
+                    "table { width: 100%; border-collapse: collapse; margin-top: 20px; background-color: white; }");
             writer.write("th, td { text-align: left; padding: 12px; border-bottom: 1px solid #ddd; }");
             writer.write("th { background-color: #6200ea; color: white; }");
             writer.write("tr:hover { background-color: #f1f1f1; }");
